@@ -30,6 +30,7 @@
 }
 
 .main-nav li {
+  display: inline;
   margin-right: .4em;
   font-size: 1.5em;
   padding: .5em .2em;
@@ -59,3 +60,15 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+
+  @media only screen and (min-width: 640px) {
+    .icon-menu {
+      display: none;
+      }
+      .main-nav ul {
+        display: inherit;
+        padding: 0;
+        list-style: none;
+        clear: both;
+      }
+      }
