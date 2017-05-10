@@ -66,6 +66,7 @@
     display: none;
   }
   .main-nav ul {
+    display: inherit;
     padding: 0;
     list-style: none;
     clear: both;
